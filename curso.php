@@ -25,12 +25,12 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title><?php echo $curso['nome'];?> - Propositus Panda</title>
-    <link rel="stylesheet" href="./css/ppstyle.css">
+    <link rel="stylesheet" href="./assets/css/ppstyle.css">
 </head>
 <body>
     <header class="topo">
         <div class="wtspace">
-            <img src="./images/logo.jpg" class="logo" alt="Logotipo da propositus Panda">
+            <img src="./assets/img/logo.jpg" class="logo" alt="Logotipo da propositus Panda">
         </div>
         <div class="blspace">
             <ul class="menu">

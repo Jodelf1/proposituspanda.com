@@ -24,7 +24,7 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/ppstyle.css">
+    <link rel="stylesheet" href="../assets/css/ppstyle.css">
     <title>Gerir Serviços - Propositus Panda</title>
 </head>
 <body>
@@ -33,7 +33,7 @@
         <nav id="menu_lateral">
             <div id="menu_lateral_content">
                 <div class="adm_user" id="adm_user">
-                    <img src="../images/user.png" alt="" id="adm_avatar">
+                    <img src="../assets/img/user.png" alt="" id="adm_avatar">
                     <p id="adm_infos">
                         <span class="adm_description">
                             <?php echo $adm['nome'];?>
@@ -104,7 +104,7 @@
 
         <div class="adm_main">
             <div class="cabecalho">
-                <img src="../images/logo.jpg" alt="" class="logo">
+                <img src="../assets/img/logo.jpg" alt="" class="logo">
             </div>
             <div class="novoservico">
                     <h1>Ver as solicitações de serviço</h1>
@@ -157,6 +157,6 @@
               </table>
             
         </div>
-    <script src="../js/menu_script.js"></script>
+    <script src="../assets/js/menu_script.js"></script>
 </body>
 </html>

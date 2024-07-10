@@ -23,7 +23,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/ppstyle.css">
+    <link rel="stylesheet" href="../assets/css/ppstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -38,7 +38,7 @@
         <nav id="menu_lateral">
             <div id="menu_lateral_content">
                 <div class="adm_user" id="adm_user">
-                    <img src="../images/user.png" alt="" id="adm_avatar">
+                    <img src="../assets/img/user.png" alt="" id="adm_avatar">
                     <p id="adm_infos">
                         <span class="adm_description">
                             <?php echo $adm['nome'];?>
@@ -107,7 +107,7 @@
 
         <div class="adm_main">
             <div class="cabecalho">
-                <img src="../images/logo.jpg" alt="" class="logo">
+                <img src="../assets/img/logo.jpg" alt="" class="logo">
             </div>
             <h1>Seja Bem-vindo <strong><?php echo $adm['nome']; ?></strong></h1>
             <div class="some_adm_mainpage_views">
@@ -154,6 +154,6 @@
                 </div></a>
             </div>
     </div>
-    <script src="../js/menu_script.js"></script>
+    <script src="../assets/js/menu_script.js"></script>
 </body>
 </html>
