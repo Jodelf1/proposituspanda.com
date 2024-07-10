@@ -79,12 +79,12 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Login - Propositus Panda</title>
-    <link rel="stylesheet" href="./css/ppstyle.css">
+    <link rel="stylesheet" href="./assets/css/ppstyle.css">
 </head>
 <body>
     <header class="topo">
         <div class="wtspace">
-            <img src="./images/logo.jpg" class="logo" alt="Logotipo da propositus Panda">
+            <img src="./assets/img/logo.jpg" class="logo" alt="Logotipo da propositus Panda">
         </div>
         <div class="blspace">
             <ul class="menu">
@@ -99,8 +99,8 @@
         <br><br><br><br><br>
        
         <form action="" method="post" class="form_login">
-            <img src="./images/login_elipse1.svg" alt="" class="login_elipse1">
-            <img src="./images/login_elipse2.svg" alt="" class="login_elipse2">
+            <img src="./assets/img/login_elipse1.svg" alt="" class="login_elipse1">
+            <img src="./assets/img/login_elipse2.svg" alt="" class="login_elipse2">
             <div class="form_inputs">
                 <h1>Entre em sua conta</h1>
                 <br>

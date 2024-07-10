@@ -17,7 +17,7 @@
             $foto_2 = $_FILES['foto_capa2']; 
             $foto_3 = $_FILES['foto_capa3']; 
 
-            $pasta = "./images/";
+            $pasta = "./assets/img/";
 
             $nomeFT = $foto_1['name'];
             $nomeFT2 = $foto_2['name'];
@@ -72,7 +72,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/ppstyle.css">
+    <link rel="stylesheet" href="../assets/css/ppstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -86,7 +86,7 @@
         <nav id="menu_lateral">
             <div id="menu_lateral_content">
                 <div class="adm_user" id="adm_user">
-                    <img src="../images/user.png" alt="" id="adm_avatar">
+                    <img src="../assets/img/user.png" alt="" id="adm_avatar">
                     <p id="adm_infos">
                         <span class="adm_description">
                             <?php echo $adm['nome'];?>
@@ -155,7 +155,7 @@
 
         <div class="adm_main">
             <div class="cabecalho">
-                <img src="../images/logo.jpg" alt="" class="logo">
+                <img src="../assets/img/logo.jpg" alt="" class="logo">
             </div>
             <div class="novocurso">
                 <form action="" method="post" enctype="multipart/form-data" id="servico_foto_form">
@@ -164,20 +164,20 @@
                         <div class="serv_imgs">
 
                             <div class="add_image" id="imagem">
-                                <img src="../images/gallery2.png" alt="" id="foto-servico1">
+                                <img src="../assets/img/gallery2.png" alt="" id="foto-servico1">
                                 <input type = "file" id="foto_capa1" name = "foto_capa1" accept="image/*" required>
                             </div>
                             <div class="add_image" id="imagem">
-                                <img src="../images/gallery2.png" alt="" id="foto-servico2">
+                                <img src="../assets/img/gallery2.png" alt="" id="foto-servico2">
                                 <input type = "file" id="foto_capa2" name = "foto_capa2" accept="image/*" required>
                             </div>
                             <div class="add_image" id="imagem">
-                                <img src="../images/gallery2.png" alt="" id="foto-servico3">
+                                <img src="../assets/img/gallery2.png" alt="" id="foto-servico3">
                                 <input type = "file" id="foto_capa3" name = "foto_capa3" accept="image/*" required>
                 
-                                <script src="../js/foto.js"></script>
-                                <script src="../js/foto2.js"></script>
-                                <script src="../js/foto3.js"></script>
+                                <script src="../assets/js/foto.js"></script>
+                                <script src="../assets/js/foto2.js"></script>
+                                <script src="../assets/js/foto3.js"></script>
                             </div>
                         </div>
                         <h4>Selecione as 3 fotos para a capa do serviço (fotos significativas)</h4>
@@ -191,6 +191,6 @@
             <br>
             
         </div>
-    <script src="../js/menu_script.js"></script>
+    <script src="../assets/js/menu_script.js"></script>
 </body>
 </html>

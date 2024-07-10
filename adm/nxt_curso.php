@@ -13,7 +13,7 @@
     if(isset($_POST['publicar'])){  
         if(isset($_FILES['foto_curso'])){
             $fotocurso = $_FILES['foto_curso']; 
-            $pasta = "./images/";
+            $pasta = "./assets/img/";
             $nomeFT = $fotocurso['name'];
             $novonomeFT = "PropositusPanda_". uniqid();
             $extensao = strtolower(pathinfo($nomeFT,PATHINFO_EXTENSION));
@@ -51,7 +51,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/ppstyle.css">
+    <link rel="stylesheet" href="../assets/css/ppstyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -66,7 +66,7 @@
         <nav id="menu_lateral">
             <div id="menu_lateral_content">
                 <div class="adm_user" id="adm_user">
-                    <img src="../images/user.png" alt="" id="adm_avatar">
+                    <img src="../assets/img/user.png" alt="" id="adm_avatar">
                     <p id="adm_infos">
                         <span class="adm_description">
                             <?php echo $adm['nome'];?>
@@ -137,7 +137,7 @@
 
         <div class="adm_main">
             <div class="cabecalho">
-                <img src="../images/logo.jpg" alt="" class="logo">
+                <img src="../assets/img/logo.jpg" alt="" class="logo">
             </div>
             <div class="novocurso">
             
@@ -159,6 +159,6 @@
             <br>
             
         </div>
-    <script src="../js/menu_script.js"></script>
+    <script src="../assets/js/menu_script.js"></script>
 </body>
 </html>

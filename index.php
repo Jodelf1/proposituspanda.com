@@ -18,14 +18,14 @@ $servc_query = $conexao2->query($servcsql) or die($conexao2->error);
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <title>Página Inicial - Propositus Panda</title>
-    <link rel="stylesheet" href="./css/ppstyle.css">
-    <link rel="stylesheet" href="./css/pprespons.css">
+    <link rel="stylesheet" href="./assets/css/ppstyle.css">
+    <link rel="stylesheet" href="./assets/css/pprespons.css">
 </head>
 
 <body>
     <header class="topo">
         <div class="wtspace">
-            <img src="./images/logo.jpg" class="logo" alt="Logotipo da Propositus Panda">
+            <img src="./assets/img/logo.jpg" class="logo" alt="Logotipo da Propositus Panda">
         </div>
         <div class="blspace">
             <ul class="menu">
@@ -105,17 +105,17 @@ $servc_query = $conexao2->query($servcsql) or die($conexao2->error);
             <div class="info4">
                 <h1>Porque trabalhar com a Propositus Panda?</h1>
 
-                <div class="mtv"><img src="./images/alvo-de-dardos.png" alt="">
+                <div class="mtv"><img src="./assets/img/alvo-de-dardos.png" alt="">
                     <div><h2>1. Nosso foco é...</h2>
                         <p>... fazer um trabalho de qualidade para preservar a nossa reputação e assim fidelizar os parceiros</p></div>
                 </div>
 
-                <div class="mtv midle"><img src="./images/relogio-de-parede.png" alt="">
+                <div class="mtv midle"><img src="./assets/img/relogio-de-parede.png" alt="">
                     <div><h2>2. Nossa Missão é... </h2>
                         <p>... satisfazer as necessidades de nossos clientes, parceiros em tempo recorde e com alta qualidade.</p></div>
                 </div>
 
-                <div class="mtv"><img src="./images/qualidade.png" alt="">
+                <div class="mtv"><img src="./assets/img/qualidade.png" alt="">
                     <div><h2>3. Profissionalismo</h2>
                         <p>... Nos comprometemos com o trabalho, oferecendo os serviços que nos propusemos a fornecer.</p></div>   
                 </div>
@@ -136,8 +136,8 @@ $servc_query = $conexao2->query($servcsql) or die($conexao2->error);
                 <h2>Não esqueça de verificar</h2>
                 <div class="filho">
                     <a href="servicos.php">
-                        <div><img src="./images/servico-tecnico.png" alt=""><p>Serviços</p></div></a>
-                    <a href="cursos.php"><div><img src="./images/diploma.png" alt=""><p>Cursos</p></div></a>
+                        <div><img src="./assets/img/servico-tecnico.png" alt=""><p>Serviços</p></div></a>
+                    <a href="cursos.php"><div><img src="./assets/img/diploma.png" alt=""><p>Cursos</p></div></a>
                 </div>
             </div>
         </div>

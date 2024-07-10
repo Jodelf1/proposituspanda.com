@@ -1,0 +1,15 @@
+.vrms{
+    padding: 8px 16px;
+    background-color: var(--color3);
+    color: var(--color2);
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    text-shadow: none;
+}
+
+.tituloh1{
+    font-size: 24px;
+    font-weight: var(--peso-black);
+    text-align: center;
+}

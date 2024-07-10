@@ -1,0 +1,226 @@
+/* Desktop */
+@media screen and (min-width: 601px){
+    .hide-desktop {
+        display: none;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%!important;
+    }
+    .tlvz, .wtspace, .wlcm, .info3{
+        width: 100%;
+    }
+    .hide-mobile {
+        display: none;
+        overflow: hidden;
+    }
+    .wtspace{
+        width: 90%;
+        padding: 10px;
+
+    }
+    .wtspace img{
+        width: 150px;
+    }
+    /*Pagina inicial responsiva*/
+
+    main{
+        width: 100%;
+    }
+    main .pri{
+        background-image: linear-gradient(var(--color1-2) 83%, var(--color1) 100% ), url(../img/wlcmimg.png);
+        height: 100vh;
+        background-position: center;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    main .wlcm{
+        width: 80%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .wlcm h2{
+        display: none;
+    }
+    main .sec{
+        background: linear-gradient(0deg, var(--color2) 3%, var(--color3) 37%, var(--color1) 100%);
+        height: 280px;
+    }
+    main .sec .info1{
+        margin-top: 60px;
+        padding: 12px;
+    }
+    main .sec .info1 h1{
+        color: var(--color2);
+    }
+    main .secback{
+        background-image: none;
+    }
+    main .sec .info1 .infdiv{
+        margin-top: 20px;
+    } 
+    main .sec .info1 .infdiv div{
+        width: 150px;
+        height: 170px;
+        background: var(--color2);
+    }
+    main .info3, .info5,  main .secback,main .terc ,  main .terc .info2, .penul .info4{
+        padding: 10px;
+        height: auto;
+        width: var(--width-mob);
+        margin: 0;
+    }
+    main .terc .info2 h1, main .info3 h1 {
+        color: #0378A6;
+        text-align: left;font-weight: 900;
+        font-size: 20px;
+    }
+    main .terc .info2 p{
+        font-size: 16px;
+    }
+    main .terc{
+        margin-top: 40px;
+        background-image: none;
+        color: black;
+    }
+ 
+    main .terc .info2, main .info3{
+        color: #000;
+        text-align: left;
+    }
+
+    main .info3{
+        padding: 20px;
+    }
+    .info3 ul{
+        list-style: none;
+        font-size: 16px;
+    }
+    .penul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .penul .info4 p{
+        font-size: var(--fs-mob-pqn);
+    }
+    .penul .info4 img{
+        height: 70px;
+        margin: 10px;
+    }
+    .penul .info4 h1{
+        text-align: left;
+        color: #1BDDF2;
+        margin-bottom: 20px;
+    }
+    .penul .info4 h2{
+        font-size: 20px;
+    }
+    .penul .info4 .mtv, .penul .info4 .midle{
+        text-align: left;
+        flex-direction: column;
+    }
+    .penul .info4 .midle h2, .penul .info4 .midle p {
+        text-align: left;
+    }
+    .info5{
+        width: 90%;
+        padding: 20px;
+    }
+    .info5 .contact{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    .info5 .contact a{
+        font-size: 15px;
+        text-decoration: none;
+        padding: 10px 25px;
+        border-radius: 6px;
+        margin: 0 10px;
+    }
+    .info5 p{
+        font-size: 16px;
+        text-align: left;
+    }
+    .info5 .links .filho{
+        justify-content: center;
+    }
+    .info5 .links .filho div{
+        margin: 25px;
+    }
+    .info5 .links .filho div img{
+        height: 50px;
+    }
+    /*Footer Responsivo*/
+    footer .fim{
+        padding: 0;
+    }
+    .fim .ft1, .ft2, .ft3{
+        padding: 20px 10px;
+        border-bottom: 1px var(--color2) solid;
+    }
+    .fim .ft1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .ft2 .footer-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 15px;
+    }
+
+    /*Curso individual*/
+    .maincurso{
+        width: 100%;
+        flex-direction: column;
+    }
+    .maincurso .informa_curso{
+        width: 80%;
+        padding: 10px;
+        margin: 10px;
+        min-width: 80%;
+    }
+    .informa_curso img{
+        width: 100%;
+        object-fit: cover;
+        min-height: 100px;
+        border-radius: 5px;
+    }
+    .maincurso .mais_cursos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 200px;
+    }
+    .mais_cursos h2{
+        display: none;
+    }
+    .main_cursos .curso_sugest{
+        width: 40%;
+        gap: 5px;
+    }
+    .mais_cursos .curso_sugest img{
+        max-height: 150px;
+        width: 80%;
+        border-radius: 5px;
+    }
+    .mais_cursos .curso_sugest p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+}

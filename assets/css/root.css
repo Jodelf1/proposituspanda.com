@@ -1,0 +1,81 @@
+:root{
+
+    --text-mob: 16px;
+    --width-pc: 900px;
+    --width-mob: 90%;
+
+    --color1: #0378A6;
+    --color1-2:#0378a6cc; 
+    --color2: #fff;
+    --color3: #1BDDF2;
+    --color4: #FF9141;
+
+    --peso-leve: 400;
+    --peso-normal: 500;
+    --peso-semi: 600;
+    --peso-black: 900;
+
+    --fs-mob-pqn: 16px;
+    --fs-pc-pqn: 20px;
+
+    --padd-max: 130px; 
+    --padd-min2: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+.row{
+    flex-direction: row;
+}
+.f-width{
+    width: 100%;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.m-center{
+    margin: 0 auto;
+}
+.t-center{
+    text-align: center;
+}
+.a-center{
+    align-items: center;
+}
+.j-center{
+    justify-content: center;
+}
+.j-around{
+    justify-content: space-around;
+}
+.j-between{
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 601px){
+    p{
+        font-size: var(--fs-pc-pqn);
+    }
+    .rel-width{
+        width: var(--width-pc);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    p{
+        font-size: var(--fs-mob-pqn);
+    }
+    .rel-width{
+        width: var(--width-mob);
+    }
+}
