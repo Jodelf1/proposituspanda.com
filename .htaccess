@@ -1,0 +1,21 @@
+options -indexes
+
+# Define o arquivo de índice
+DirectoryIndex index.php index.html
+
+# Ativar reescrita de URL (caso necessário)
+RewriteEngine On
+
+# Exemplo de reescrita de URL (ajuste conforme necessário)
+# RewriteRule ^page/(.*)$ page.php?name=$1 [L]
+
+# Proteção básica
+<Files .htaccess>
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
