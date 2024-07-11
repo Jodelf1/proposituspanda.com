@@ -13,6 +13,9 @@
     .tlvz, .wtspace, .wlcm, .info3{
         width: 100%;
     }
+    .hide-desktop{
+        display: initial;
+    }
     .hide-mobile {
         display: none;
         overflow: hidden;
@@ -20,11 +23,16 @@
     .wtspace{
         width: 90%;
         padding: 10px;
-
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
     }
     .wtspace img{
         width: 150px;
+        margin: 0;
     }
+
     /*Pagina inicial responsiva*/
 
     main{

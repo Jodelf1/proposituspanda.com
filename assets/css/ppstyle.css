@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0px;
     margin: 0px;
     list-style: none;
@@ -81,6 +81,20 @@ main .sec .info1 .infdiv div{
     border: var(--color1) 2px solid;
     border-radius: 10px;
     overflow: hidden;
+}
+.menu-mobile{
+    padding: 20px;
+    gap: 7px;
+    display: flex;
+    font-weight: var(--peso-semi);
+    z-index: 1000;
+}
+.hide-menu{
+    display: none;
+}
+.open-menu{
+    display: block;
+    transition: 1s;
 }
 main .sec .info1 .infdiv a{
     position: relative;
@@ -923,147 +937,4 @@ table ion-icon{
 }
 .main_g gallery-container{
     height: auto;
-}
-@media only screen and (max-width: 600px){
-    body{
-        width: 100%!important;
-    }
-    /*Menu responsivo*/
-    .wtspace{
-        width: 100%;
-        height: 45.73px;
-    }
-    .wtspace img{
-        width: 150px;
-        margin: 0 auto;
-    }
-    .blspace{
-        height: 56px;
-        background-color: #0378A6;
-        display: flex;
-        align-items: center;
-    }
-    .blspace ul{
-        display: flex;
-        flex-direction: row;
-        gap: 80px;
-        list-style: none;
-        width: 835px;
-        margin: 0 auto;
-    }
-    .blspace ul a{
-        color: #fff;
-        text-decoration: none;
-        font-family: "Rubik", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-    }
-    /*Pagina inicial responsiva*/
-    main .pri{
-        height: 100vh;
-    }
-    main .wlcm{
-        width: 100%;
-        margin: 0 auto;
-        padding: 30px;
-        position: relative;
-        height: 455px;
-        font-family: "Rubik", sans-serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-        color: #fff;
-        
-    }
-    .wlcm h1{
-        font-weight: 400;
-    }
-    .wlcm h2{
-        font-size: 14px;
-        font-weight: 300px;
-        position: absolute;
-        left: 290px;
-    }
-    .vrms{
-        padding: 8px 16px;
-        background-color: aqua;
-        color: #fff;
-        text-decoration: none;
-        font-weight: 600;
-        border-radius: 5px;
-        text-shadow: none;
-    }
-    .backimg{
-        width: 100%;
-    }
-    /*Footer Responsivo*/
-
-    footer{
-        background: #0378A6;
-        height: 290px;
-    }
-    footer .fim{
-        padding: 10px;
-        width: 90%;
-    }
-    .fim .ft1, .ft2, .ft3{
-        padding: 20px 10px;
-        border-bottom: 1px #fff solid;
-    }
-    .fim .ft1{
-        display: flex;
-        color: #fff;
-        font-size: 16px;
-        font-weight: 500;
-        justify-content: space-around;
-    }
-    .ft2 .footer-menu{
-        display: flex;
-        flex-direction: row;
-        list-style: none;
-        justify-content: space-around;
-        gap: 15px;
-    }
-    /*Curso individual*/
-
-    .maincurso{
-        width: 100%;
-        flex-direction: column;
-    }
-    .maincurso .informa_curso{
-        width: 80%;
-        padding: 10px;
-        margin: 10px;
-        min-width: 80%;
-    }
-    .informa_curso img{
-        width: 100%;
-        object-fit: cover;
-        min-height: 100px;
-        border-radius: 5px;
-    }
-    .maincurso .mais_cursos{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 200px;
-    }
-    .mais_cursos h2{
-        display: none;
-    }
-    .main_cursos .curso_sugest{
-        width: 40%;
-        gap: 5px;
-    }
-    .mais_cursos .curso_sugest img{
-        max-height: 150px;
-        width: 80%;
-        border-radius: 5px;
-    }
-    .mais_cursos .curso_sugest p{
-        font-size: 16px;
-        text-align: center;
-    }
-
 }

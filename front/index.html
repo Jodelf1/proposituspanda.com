@@ -19,8 +19,11 @@
 
 <body>
     <header class="topo flex col f-width">
-        <div class="wtspace m-center rel-width">
+        <div class="wtspace m-center rel-width a-center">
             <img src="../assets/img/logo.jpg" class="logo" alt="Logotipo da propositus Panda">
+            <section class="hide-desktop">
+                <button class="botao-menu" onclick="menuShow()"><ion-icon class="icon" name="menu-outline"></ion-icon></button>
+            </section>
         </div>
         <section class="hide-mobile">
             <div class="blspace flex center">
@@ -32,9 +35,15 @@
                 </ul>
             </div>
         </section>
-        <section class="hide-desktop">
-
+        <section class="hide-menu">
+            <ul class="menu-mobile col m-center a-center rel-width">
+                <a href="./servicos.php"><li class="item">Serviços</li></a>
+                <a href="./cursos.php"><li class="item">Cursos</li></a>
+                <a href="./galeria.php"><li class="item">Galeria de fotos</li></a>
+                <a href="#qsms"><li class="item ativo">Quem somos?</li></a>
+            </ul>
         </section>
+            
     </header>
 
     <main>
@@ -176,5 +185,6 @@
             <div class="cdts t-center">© Propositus Panda 2024 | <strong>Desenvolvido por <a href="">Jodelfi Marimba</a></strong>  </div>
         </div>
     </footer>
+    <script src="../assets/js/menu.js"></script>
 </body>
 </html>
